@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 1.8rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.link_nav {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  /* this removes the line underneath the link */
+  font-weight: bold;
+}
+/* Decorate navbar */
+
+.link_nav:hover {
+  color: rgb(19, 142, 199);
+}
+.link {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  /* this removes the line underneath the link */
+}
+/* Decorate navbar */
+.link:hover {
+  color: rgb(19, 142, 199);
+}
+body {
+  background-color: rgb(182, 188, 241);
+  text-align: center;
+}
+.projects_link {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  /* this class overrides the link class */
+}
+#my_title {
+  /* id use here */
+  color: black;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.picture-logo {
+  /* modify picture sizes */
+  width: 30%;
+  height: auto;
+}
+.picture-hosts {
+  width: 20%;
+  height: auto;
+}
+.picture-WXSU {
+  width: 90%;
+  height: auto;
+}
+.list {
+  font-size: 2rem;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  /* add a little bit of phone compatibility */
+  #my_title {
+    /* id use here */
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .link_nav {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /* this removes the line underneath the link */
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5rem;
+    margin-left: 7%;
+    margin-right: 5%;
+  }
+  .picture-logo {
+    /* modify picture sizes */
+    width: 60%;
+    height: "auto";
+  }
+  .picture-hosts {
+    width: 60%;
+    height: "auto";
+  }
+  .yt-link {
+    width: 100%;
+    height: 300px;
+  }
+  .list {
+    font-size: 1.5rem;
+  }
+}

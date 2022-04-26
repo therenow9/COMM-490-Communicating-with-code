@@ -1,0 +1,28 @@
+#all {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2ddf00f8;
+  text-align: center;
+}
+#greeting {
+  font-size: 2.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#pic {
+  height: 200px;
+  width: auto;
+}
+#current_time {
+  color: black;
+  padding-top: 2%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2.6rem;
+}
+.explanation {
+  background-color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  list-style-position: inside;
+}
